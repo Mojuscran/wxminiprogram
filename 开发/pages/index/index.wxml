@@ -1,0 +1,9 @@
+<image src="/pages/image/2.jpg"  class="background"></image>
+ <view class="container">
+<view  class="header">    
+欢迎<text class="userinfo-nickname"></text>使用
+  </view>
+  <view class="h2">{{statement}}</view>
+</view>
+<view class="h1">开关<switch bindchange="change" checked="{{led_checked}}" class=""></switch>
+</view>

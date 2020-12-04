@@ -1,0 +1,60 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.header{
+  text-align: center;
+  font-size: 40rpx;
+  color: crimson;
+  margin-bottom: 40px;
+  width:100%;
+  position: relative;
+  height:50px;
+}
+.header::after{
+  content:'智能门锁';
+  position: absolute;
+  width: 20rem;
+  z-index: 1;
+  text-align: center;
+  color: black;
+  font-size: 120rpx;
+  left: 0;
+  bottom:-50px;
+}
+.h1{
+  text-align: center;
+  font-size: 100rpx;
+  color: rgb(5, 173, 224);
+  margin-bottom: 40px;
+  width:100%;
+  position: relative;
+  height:50px;
+}    
+.h2{
+  text-align: center;
+  font-size: 50rpx;
+  margin-top: 10rpx;
+  color: rgb(255, 0, 0);
+  margin-bottom: 40px;
+  width:100%;
+  position: relative;
+  height:50px;
+}        
