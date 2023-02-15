@@ -1,2 +1,3 @@
-# wxminiprogram
+# 智能门锁配套微信小程序
 微信小程序
+利用onenet进行设备间的交互
